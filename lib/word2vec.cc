@@ -631,8 +631,8 @@ void TrainModel() {
 napi_value Default(napi_env env, napi_callback_info info) {
   napi_status status;
 
-  size_t argc = 2;
-  napi_value args[2];
+  size_t argc = 12;
+  napi_value args[12];
   status = napi_get_cb_info(env, info, &argc, args, nullptr, nullptr);
   assert(status == napi_ok);
 
