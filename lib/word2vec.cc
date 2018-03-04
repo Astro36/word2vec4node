@@ -627,18 +627,6 @@ void TrainModel() {
   fclose(fo);
 }
 
-int ArgPos(char *str, int argc, char **argv) {
-  int a;
-  for (a = 1; a < argc; a++) if (!strcmp(str, argv[a])) {
-    if (a == argc - 1) {
-      printf("Argument missing for %s\n", str);
-      exit(1);
-    }
-    return a;
-  }
-  return -1;
-}
-
 // args: input_path, output_path, size, alpha, window, min_count, sample, workers, hs, negative, iter, cbow
 napi_value Default(napi_env env, napi_callback_info info) {
   napi_status status;
