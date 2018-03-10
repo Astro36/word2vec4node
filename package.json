@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "node-gyp rebuild",
-    "lint": "eslint lib",
-    "lint-fix": "eslint lib --fix"
+    "lint": "eslint lib test",
+    "lint-fix": "eslint lib test --fix"
   },
   "gypfile": true,
   "repository": {
