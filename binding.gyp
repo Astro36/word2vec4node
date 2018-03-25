@@ -2,7 +2,9 @@
   "targets": [
     {
       "target_name": "word2vec",
-      "sources": ["lib/word2vec.cc"]
+      "conditions": [
+        ['OS!="win"', {"sources": ["lib/word2vec.cc"]}],
+      ]
     }
   ]
 }
