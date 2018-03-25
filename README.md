@@ -4,7 +4,7 @@
 
 ## Notice
 
-Only **Unix-like** OS can use `Word2Vec.train()` method. [pthread](https://en.wikipedia.org/wiki/POSIX_Threads) working on POSIX, Windows can not use that method.
+Only **Unix-like** OS can use `Word2Vec.train()` method. [pthread](https://en.wikipedia.org/wiki/POSIX_Threads) only working on POSIX, Windows can not use that method.
 
 ## License
 
