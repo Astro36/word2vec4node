@@ -23,7 +23,7 @@ npm install word2vec4node --save
 - Clone the repo:
 
 ```bash
-git clone https://github.com/Astro36/Word2Vec4Node.git
+git clone https://github.com/Astro36/word2vec4node.git
 ```
 
 ## Usage

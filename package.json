@@ -1,17 +1,17 @@
 {
   "name": "word2vec4node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Word2Vec Interface for Node.js with N-API",
   "main": "lib/index.js",
   "scripts": {
     "build": "node-gyp rebuild",
     "lint": "eslint lib test",
-    "lint-fix": "eslint lib test --fix"
+    "lint:fix": "eslint lib test --fix"
   },
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Astro36/Word2Vec4Node.git"
+    "url": "https://github.com/Astro36/word2vec4node.git"
   },
   "keywords": [
     "deep-learning",
@@ -27,15 +27,15 @@
   },
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/Astro36/Word2Vec4Node/issues"
+    "url": "https://github.com/Astro36/word2vec4node/issues"
   },
-  "homepage": "https://github.com/Astro36/Word2Vec4Node#readme",
+  "homepage": "https://github.com/Astro36/word2vec4node#readme",
   "dependencies": {
-    "bindings": "^1.3.0"
+    "bindings": "^1.5.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.10.0"
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
